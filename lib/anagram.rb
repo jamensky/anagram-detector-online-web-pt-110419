@@ -20,9 +20,8 @@ class Anagram
       @@all_matches << x
       #binding.pry
     end
-    return @@all_matches
   end
-
+    return @@all_matches
   end
 
 end
