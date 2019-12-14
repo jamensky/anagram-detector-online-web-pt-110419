@@ -9,11 +9,9 @@ class Anagram
   end
 
 
-  def self.match(array)
-
+  def self.match(array)#what is the difference between using a self. method vs normal method
     array.each do |x|
-    x.split("").include?(@word.split(""))
-    binding.pry
+    x.split("").sort == @word.split("").sort 
    end
   end
 
