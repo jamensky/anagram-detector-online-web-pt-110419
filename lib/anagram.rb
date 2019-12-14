@@ -11,7 +11,7 @@ class Anagram
 
   def all_matches
     @@all_matches
-  end 
+  end
 
 
   def match(array)
