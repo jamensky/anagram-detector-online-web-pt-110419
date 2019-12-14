@@ -11,7 +11,7 @@ class Anagram
 
   def self.match(array)#what is the difference between using a self. method vs normal method
     array.each do |x|
-    x.split("").sort == @word.split("").sort 
+    x.split("").sort == @word.split("").sort
    end
   end
 
