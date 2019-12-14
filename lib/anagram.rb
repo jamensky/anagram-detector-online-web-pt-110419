@@ -3,7 +3,7 @@ require 'pry'
 class Anagram
     attr_accessor :word, :array
 
-    @@all_matches
+    @@all_matches = []
 
   def initialize(word)
     @word = word
