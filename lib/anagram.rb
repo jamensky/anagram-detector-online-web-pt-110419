@@ -18,8 +18,10 @@ class Anagram
     array.each do |x|
     if x.split("").sort == @word.split("").sort
       @@all_matches << x
+    end 
+    return @@all_matches
   end
-
+   
   end
 
 end
