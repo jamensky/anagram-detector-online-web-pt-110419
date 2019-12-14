@@ -16,7 +16,7 @@ class Anagram
       all_matches << x
     end
    end
-    return @@all_matches
+    return all_matches
   end
 
 end
