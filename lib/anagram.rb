@@ -9,7 +9,7 @@ class Anagram
     @word = word
   end
 
-  def all_matches
+  def self.all_matches
     @@all_matches
   end
 
